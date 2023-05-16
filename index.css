@@ -1,0 +1,134 @@
+body {
+  margin: 40px auto 0;
+  line-height: normal;
+  text-align: center;
+}
+
+:root {
+  --font-inter: Inter;
+  --font-size-sm: 14px;
+  --color-black: #000;
+}
+
+.year-1997 {
+  position: absolute;
+  top: 247px;
+  left: 10px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 95px;
+  height: 21px;
+}
+
+.blank-line {
+  margin: 0;
+}
+
+.my-first-tape-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+
+.my-first-tape-container {
+  top: calc(50% - 134.5px);
+  left: 0;
+  font-size: 26px;
+  width: 300px;
+  height: 69px;
+}
+
+.all-eyez-on,
+.my-first-tape-container,
+.pac-all-eyez {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.pac-all-eyez {
+  top: 57px;
+  left: 80px;
+  justify-content: center;
+  width: 146px;
+  height: 19px;
+}
+
+.all-eyez-on {
+  top: 93px;
+  left: 34px;
+  line-height: 133%;
+  text-align: left;
+  width: 232px;
+  height: 118px;
+}
+
+.duration1h-32min {
+  position: absolute;
+  top: 247px;
+  left: 146px;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 127px;
+  height: 22px;
+}
+
+.year-1997-parent {
+  position: absolute;
+  top: 265px;
+  left: 0;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 300px;
+  height: 269px;
+}
+
+.group-container {
+  position: absolute;
+  bottom: 6px;
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 540px;
+}
+
+.rectangle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 540px;
+}
+
+.group-parent {
+  margin: 0 auto;
+  position: relative;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 300px;
+  height: 540px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+.group-item {
+  position: absolute;
+  bottom: 280px;
+  left: calc(50% - 150px);
+  width: 297px;
+  height: 258px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+
+.group-child {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  background-color: #faf2cb;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  width: 297px;
+  height: 37px;
+  mix-blend-mode: multiply;
+}
